@@ -2,6 +2,7 @@ GEM
   specs:
     kgio (2.11.4)
     raindrops (0.20.0)
+    rake (13.0.6)
     unicorn (6.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
@@ -10,6 +11,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  rake
   unicorn
 
 BUNDLED WITH
