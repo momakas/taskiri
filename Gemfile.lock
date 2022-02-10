@@ -2,7 +2,7 @@ GEM
   specs:
     kgio (2.11.4)
     raindrops (0.20.0)
-    unicorn (5.1.0)
+    unicorn (6.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
 
