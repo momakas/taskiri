@@ -2,8 +2,7 @@ group :production do
   gem 'unicorn'
   gem 'rake'
 end
-gem 'unicorn'
-gem 'rake'
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
