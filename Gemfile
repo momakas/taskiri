@@ -16,11 +16,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # awsでは使用しないはずなのでコメント
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-group :development do
+# group :development do
   gem 'rails'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-end
+# end
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
