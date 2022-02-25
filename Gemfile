@@ -16,6 +16,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # awsでは使用しないはずなのでコメント
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
+group :development do
+  gem 'rails'
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
+end
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -75,8 +80,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-i18n'
 gem 'rails-ujs', '~> 0.1.0'
-gem 'debase'
-gem 'ruby-debug-ide'
+group :development do
+  gem 'debase'
+  gem 'ruby-debug-ide'
+end
+
 gem 'prettier'
 # gem 'rubocop-config-prettier'
 # gem 'rubocop'
