@@ -16,9 +16,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # sqliteではなく、mysqlを使用
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-gem 'rails'
 gem 'mysql2'
 group :development do
+  gem 'rails'
   gem "dotenv-rails"
 end
 
