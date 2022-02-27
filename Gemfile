@@ -18,7 +18,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # gem 'sqlite3'
 gem 'mysql2'
 group :development do
-  # gem 'rails'
+  gem 'rails', '7.0'
   gem "dotenv-rails"
 end
 
